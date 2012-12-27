@@ -1,0 +1,13 @@
+body{
+    /*font-family: "hooligans",sans-serif;*/
+    font-family: "warnock-pro",sans-serif;
+    font-style: normal;
+    line-height: 1em;
+    padding-bottom: .3em;
+}
+.hero-unit {
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 33px;
+    color: inherit;
+}

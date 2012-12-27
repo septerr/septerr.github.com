@@ -1,0 +1,15 @@
+markdown: rdiscount
+permalink: /:title.html
+destination: ../myblog-generated
+auto: true
+exclude:
+  - Rakefile
+  - Gemfile
+  - .gitignore
+author: Swapna Gupta
+gravatar: f61645a400184b40d1d66e7537916ffd
+email: swapna.sony@gmail.com
+web: http://swapnagupta.com
+twitter: septerr
+github: septerr
+linkedin: swapna.sony@gmail.com
