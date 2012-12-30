@@ -61,7 +61,7 @@ a {
 }
 
 .post-content {
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 2em;
     font-weight: 300;
 }
@@ -87,8 +87,8 @@ background-image: url("/assets/img/birdsetc/bird.gif");
 width: 55px;
 height: 55px;
 position: absolute;
-top:75px;
-right:350px;
+top:100px;
+left:210px;
 background-image: url("/assets/img/social/rss.png");
 }
 
@@ -120,7 +120,7 @@ background-image: url("/assets/img/social/rss.png");
     width:60px;
     height:65px;
     position: absolute;
-    top:65px;
+    top:80px;
     left: 300px;
     background-image: url('/assets/img/social/github.png');
 }
