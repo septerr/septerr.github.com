@@ -3,10 +3,13 @@ layout: default
 title: Swapna Gupta
 ---
 
-{% for post in site.posts %}
-<div class="hero-unit">
-    <p><h2><a href="{{ post.url }}">{{ post.title }}</a></h2>{{ post.date | date_to_string }}</p>
-    <p>{{ post.content | strip_html | truncatewords: 55 }}</p>
-    <p><a href="{{ post.url }}">Read more ...</a></p>
+<div id="post-summaries">
+    {% for post in site.posts %}
+        <div class="post-summary">
+            <p class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></p>
+            <p class="post-timestamp">{{ post.date | date_to_string }}</p>
+            <p class="post-content">{{ post.content | strip_html | truncatewords: 55 }}</p>
+            <p class="post-readmore"><a href="{{ post.url }}">Read more ...</a></p>
+        </div>
+    {% endfor %}
 </div>
-{% endfor %}

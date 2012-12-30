@@ -1,13 +1,77 @@
-body{
-    /*font-family: "hooligans",sans-serif;*/
-    font-family: "warnock-pro",sans-serif;
+body {
+    background-color: #ffffff;
     font-style: normal;
-    line-height: 1em;
-    padding-bottom: .3em;
-}
-.hero-unit {
     font-size: 20px;
     font-weight: 200;
+    color: #615e5c;
     line-height: 33px;
-    color: inherit;
+    /*font-family: 'Source Sans Pro', sans-serif;*/
+    font-family: 'Lato', sans-serif;
+    /*font-family: 'Oxygen', sans-serif;*/
+}
+
+#wrapper {
+    background-size: 100% auto;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+
+#header {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 2.5em;
+    line-height: 1em;
+    font-weight: 400;
+    color: #615e5c;
+}
+
+a {
+    color: #f3734f;
+    text-decoration: none;
+}
+
+#post-summaries, #post-wrapper, #header {
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.post-summary, #post {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.post-title, .post-title a {
+    font-size: 2em;
+    line-height: 1em;
+    font-weight: 100;
+    color: #615e5c;
+
+}
+
+.post-content {
+    font-size: 1.5em;
+    line-height: 2em;
+    font-weight: 300;
+}
+
+.post-timestamp, .post-readmore {
+    font-weight: 300;
+}
+
+#bird-on-tree {
+position: absolute;
+top:0;
+right:350px;
+z-index: -1;
+display:none;
 }
