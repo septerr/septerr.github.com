@@ -25,6 +25,8 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
+}
+#header a {
     font-size: 2.5em;
     line-height: 1em;
     font-weight: 400;
@@ -69,8 +71,71 @@ a {
 }
 
 #bird-right-top {
+width: 250px;
+height: 117px;
 position: absolute;
 top:0;
 right:0px;
-z-index: 1;
+background-image: url("/assets/img/birdsetc/bird.gif");
+}
+
+.social-icon {
+    cursor:pointer;
+}
+
+#rss {
+width: 55px;
+height: 55px;
+position: absolute;
+top:75px;
+right:350px;
+background-image: url("/assets/img/social/rss.png");
+}
+
+#twitter {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 25px;
+    left: 130px;
+    background-image: url('/assets/img/social/twitter.png');
+}
+#pen{
+    width:40px;
+    height:71px;
+    position: absolute;
+    top:20px;
+    left: 250px;
+    background-image: url('/assets/img/social/pen.png');
+}
+#linkedin{
+    width:72px;
+    height:72px;
+    position: absolute;
+    top:85px;
+    left: 140px;
+    background-image: url('/assets/img/social/linkedin.png');
+}
+#github{
+    width:60px;
+    height:65px;
+    position: absolute;
+    top:65px;
+    left: 300px;
+    background-image: url('/assets/img/social/github.png');
+}
+#dribbble{
+    width:50px;
+    height:50px;
+    position: absolute;
+    top:85px;
+    left: 400px;
+    background-image: url('/assets/img/social/dribbble.png');
+}
+#i-need-invite{
+    position: absolute;
+    top:92px;
+    left: 450px;
+    font-weight: 300;
+    display:none;
 }
