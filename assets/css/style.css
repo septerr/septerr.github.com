@@ -68,10 +68,9 @@ a {
     font-weight: 300;
 }
 
-#bird-on-tree {
+#bird-right-top {
 position: absolute;
 top:0;
-right:350px;
-z-index: -1;
-display:none;
+right:0px;
+z-index: 1;
 }
